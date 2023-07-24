@@ -1,0 +1,12 @@
+2023/07/24 12:32:44 [warn] 168#168: 512 worker_connections are not enough, reusing connections
+2023/07/24 12:32:44 [alert] 168#168: 512 worker_connections are not enough
+2023/07/24 12:32:44 [error] 168#168: *972 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "18.138.81.120", referrer: "http://18.138.81.120/"
+2023/07/24 12:47:29 [warn] 228#228: 512 worker_connections are not enough, reusing connections
+2023/07/24 12:47:29 [alert] 228#228: 512 worker_connections are not enough
+2023/07/24 12:47:29 [error] 229#229: *2010 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "18.138.81.120", referrer: "http://18.138.81.120/"
+2023/07/24 12:51:43 [warn] 3476#3476: 512 worker_connections are not enough, reusing connections
+2023/07/24 12:51:43 [alert] 3476#3476: 512 worker_connections are not enough
+2023/07/24 12:51:43 [error] 3477#3477: *2991 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "www.awsbatch.click", referrer: "http://www.awsbatch.click/"
+2023/07/24 13:00:53 [warn] 5315#5315: 512 worker_connections are not enough, reusing connections
+2023/07/24 13:01:55 [warn] 5386#5386: 512 worker_connections are not enough, reusing connections
+2023/07/24 13:01:55 [alert] 5386#5386: *5662 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "18.138.81.120"
